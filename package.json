@@ -1,6 +1,6 @@
 {
-    "name": "teknetics-site",
-    "description": "Teknetics Site",
+    "name": "template",
+    "description": "site template",
     "author": "vovan4a86",
     "scripts": {
         "dev": "gulp",

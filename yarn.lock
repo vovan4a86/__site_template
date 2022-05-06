@@ -13735,9 +13735,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"teknetics-site@workspace:.":
+"temp-dir@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "temp-dir@npm:1.0.0"
+  checksum: cb2b58ddfb12efa83e939091386ad73b425c9a8487ea0095fe4653192a40d49184a771a1beba99045fbd011e389fd563122d79f54f82be86a55620667e08a6b2
+  languageName: node
+  linkType: hard
+
+"tempfile@npm:^1.0.0":
+  version: 1.1.1
+  resolution: "tempfile@npm:1.1.1"
+  dependencies:
+    os-tmpdir: ^1.0.0
+    uuid: ^2.0.1
+  checksum: 840bdc49d559e8555dd33973d62358551ff96e74eb1123bef9be686adb78e38c71c01f4b1a223824599d4431fdab21cf1abd5a44d3ee64fd67891cc5d72c4ff4
+  languageName: node
+  linkType: hard
+
+"tempfile@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "tempfile@npm:2.0.0"
+  dependencies:
+    temp-dir: ^1.0.0
+    uuid: ^3.0.1
+  checksum: 8a92a0f57e0ae457dfbc156b14c427b42048a86ca6bade311835cc2aeda61b25b82d688f71f2d663dde6f172f479ed07293b53f7981e41cb6f9120a3eb4fe797
+  languageName: node
+  linkType: hard
+
+"template@workspace:.":
   version: 0.0.0-use.local
-  resolution: "teknetics-site@workspace:."
+  resolution: "template@workspace:."
   dependencies:
     "@babel/core": ^7.17.5
     "@babel/eslint-parser": ^7.17.0
@@ -13783,33 +13810,6 @@ __metadata:
     yargs: ^17.3.1
   languageName: unknown
   linkType: soft
-
-"temp-dir@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "temp-dir@npm:1.0.0"
-  checksum: cb2b58ddfb12efa83e939091386ad73b425c9a8487ea0095fe4653192a40d49184a771a1beba99045fbd011e389fd563122d79f54f82be86a55620667e08a6b2
-  languageName: node
-  linkType: hard
-
-"tempfile@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "tempfile@npm:1.1.1"
-  dependencies:
-    os-tmpdir: ^1.0.0
-    uuid: ^2.0.1
-  checksum: 840bdc49d559e8555dd33973d62358551ff96e74eb1123bef9be686adb78e38c71c01f4b1a223824599d4431fdab21cf1abd5a44d3ee64fd67891cc5d72c4ff4
-  languageName: node
-  linkType: hard
-
-"tempfile@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "tempfile@npm:2.0.0"
-  dependencies:
-    temp-dir: ^1.0.0
-    uuid: ^3.0.1
-  checksum: 8a92a0f57e0ae457dfbc156b14c427b42048a86ca6bade311835cc2aeda61b25b82d688f71f2d663dde6f172f479ed07293b53f7981e41cb6f9120a3eb4fe797
-  languageName: node
-  linkType: hard
 
 "ternary-stream@npm:^3.0.0":
   version: 3.0.0
